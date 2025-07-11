@@ -1,0 +1,141 @@
+Exit List
+
+Room ID: 1
+Room Name: Beach
+Exit Options: WEST, 2
+
+Room ID: 2
+Room Name: Dock
+Exit Options: NORTH, 6; SOUTH, 3; BACK, 1
+
+Room ID: 3
+Room Name: Boat: Top/Shelter
+Exit Options: DOWN, 4; BACK, 2
+
+Room ID: 4
+Room Name: Boat: Interior Rooms
+Exit Options: OPEN, 5; BACK, 3
+
+Room ID: 5
+Room Name: Boat: Maintenance Area. (locked door)
+Exit Options: BACK, 4
+
+Room ID: 6
+Room Name: Main Entrance
+Exit Options: WEST, 10; EAST, 9; NORTH WEST, 7; NORTH EAST, 8; NORTH, 13; BACK, 2
+
+Room ID: 7
+Room Name: Kitchen
+Exit Options: WEST, 12; BACK, 6
+
+Room ID: 8
+Room Name: Boat: Pantry
+Exit Options: BACK, 6
+
+Room ID: 9
+Room Name: Dining Room
+Exit Options: NORTH WEST, 16; NORTH EAST 17; BACK, 6; UP, 19
+
+Room ID: 10
+Room Name: Lounge
+Exit Options: NORTH WEST, 11; NORTH EAST 12; UP, 18; BACK, 9
+
+Room ID: 11
+Room Name: Library: 1st Floor
+Exit Options: BACK, 10
+
+Room ID: 12
+Room Name: Museum/Collectors Room:
+Exit Options: BACK, 10; EAST, 7
+
+Room ID: 13
+Room Name: Hedge Maze: Main
+Exit Options: BACK, 6; FORWARD, 14
+
+Room ID: 14
+Room Name: Hedge Maze: Fountain
+Exit Options: NEXT, 15
+
+Room ID: 15
+Room Name: Maintenance Shed
+Exit Options: EAST, 30; BACK, 6
+
+Room ID: 16
+Room Name: Bedroom One
+Exit Options: BACK, 9
+
+Room ID: 17
+Room Name: Bedroom Two
+Exit Options: BACK, 9
+
+Room ID: 18
+Room Name: East Interconnecting Hall
+Exit Options: WEST, 25; EAST, 24; DOWN, 10;
+
+Room ID: 19
+Room Name: West Interconnecting Hall
+Exit Options: WEST, 20; EAST, 23; DOWN, 9; SOUTH, 26
+
+Room ID: 20
+Room Name: Master Bedroom
+Exit Options: BACK, 19
+
+Room ID: 21
+Room Name: Master Closet
+Exit Options: BACK, 19
+
+Room ID: 22
+Room Name: Master Study
+Exit Options: BACK, 19
+
+Room ID: 23
+Room Name: Spa/Pool
+Exit Options: BACK, 19
+
+Room ID: 24
+Room Name: Smoking Room
+Exit Options: BACK, 18
+
+Room ID: 25
+Room Name: Library Second Floor
+Exit Options: BACK, 18
+
+Room ID: 26
+Room Name: Elevator
+Exit Options: DOWN, 27; BACK, 19
+
+Room ID: 27
+Room Name: Laboratory Hall
+Exit Options: NORTH WEST, 28; NORTH EAST, 29; SOUTH WEST, 30; SOUTH EAST, 31; SOUTH, 32; BACK, 19
+
+Room ID: 28
+Room Name: West Observation Room
+Exit Options: BACK, 27
+
+Room ID: 29
+Room Name: East Observation Room
+Exit Options: BACK, 27
+
+Room ID: 30
+Room Name: Supply Closet
+Exit Options: BACK, 27
+
+Room ID: 31
+Room Name: Bunks (Good spot for infected soldier)
+Exit Options: BACK, 27
+
+Room ID: 32
+Room Name: Main Lab
+Exit Options: WEST, 34; EAST 33
+
+Room ID: 33
+Room Name: Armory
+Exit Options: BACK, 27
+
+Room ID: 34
+Room Name: Reactor Control Room
+Exit Options: BACK, 27
+
+
+
+

@@ -1,0 +1,1 @@
+CREATE TABLE ITEM(itemID integer not null primary key autoincrement, roomID int not null, inInventory int not null, itemName text not null, itemDesc text not null, playerID int not null, canHeal int not null, healValue int null, FOREIGN KEY (roomID) REFERENCES ROOM(roomNumber) FOREIGN KEY (playerID) REFERENCES PLAYER (playerID));

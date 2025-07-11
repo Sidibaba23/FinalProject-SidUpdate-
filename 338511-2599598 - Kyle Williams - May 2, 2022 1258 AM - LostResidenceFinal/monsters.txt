@@ -1,0 +1,1 @@
+CREATE TABLE MONSTER(MonsterID integer not Null Primary Key autoincrement, RoomNumber text not Null, MonsterName text not Null, MonsterDescription text not Null, hitPoints int not Null, attackDamage int not Null,isDead int not Null, isThere int Null, playerID int not null); FOREIGN KEY (playerID) REFERENCES PLAYER (playerID);

@@ -1,8 +1,7 @@
 /**Class: Adventure.java
- * @author Kyle Williams, Bradley Iverson, Miranda Darlington, Rick Price
+ * @author Sidibaba Simpara, Malik Key, Britney Familia, Angelica Jones
  * @version 1.0
- * Course: ITEC 3860, Spring 2022
- * Written: 02/18 - 03/11
+ * Course: ITEC 3860, Summer 2025
  *
  *
  * This class houses the main method and is the starting point of the program.

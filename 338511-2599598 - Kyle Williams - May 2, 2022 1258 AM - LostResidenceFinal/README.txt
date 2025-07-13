@@ -1,6 +1,6 @@
-Basic Functionality of TextBased Adventure Game - Lost Residence
+Basic Functionality of TextBased Adventure Game - TerraCraft
 
-The rooms file consists of 34 rooms.
+The rooms file consists of 30 rooms.
 
 Each Room contains:
 
@@ -55,5 +55,4 @@ Eact .txt file need to be located outside the src directory in the project folde
 --COMMAND (CMD): This will allow the player to get a list of all available commands in the game at any time.--
 --STATS (HP): This will allow the player to see all the details about their stats (HP, Attack, Location, and Score).--
 --The keyword command [PACK] is also used to look inside the player's backpack!--
-
 

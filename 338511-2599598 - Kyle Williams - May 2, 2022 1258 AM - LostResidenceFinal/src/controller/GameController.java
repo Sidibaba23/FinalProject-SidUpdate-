@@ -1,8 +1,7 @@
 /**Class: GameController
- * @author Kyle Williams, Rick Price, Miranda Darlington, Bradley Iverson
+ * @author Sidibaba Simpara
  * @version 1.0
- * Course: ITEC 3860, Spring 2022
- * Written: 02/18 - 04/27
+ * Course: ITEC 3860, Summer 2025
  *
  *
  * This class acts as a birds eye view of where the commands go.

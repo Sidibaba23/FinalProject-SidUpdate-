@@ -1,1 +1,7 @@
 CREATE TABLE ITEM(itemID integer not null primary key autoincrement, roomID int not null, inInventory int not null, itemName text not null, itemDesc text not null, playerID int not null, canHeal int not null, healValue int null, FOREIGN KEY (roomID) REFERENCES ROOM(roomNumber) FOREIGN KEY (playerID) REFERENCES PLAYER (playerID));
+INSERT INTO ITEM (roomID, inInventory, itemName, itemDesc, playerID, canHeal, healValue) VALUES
+(1, 0, 'Healing Potion', 'Restores health — player gets to live longer', 1, 1, 20),
+(2, 0, 'Magic Scroll', 'Reveals hint for puzzle — shows puzzle clue', 1, 0, NULL),
+(3, 0, 'Shield of Light', 'Blocks next monster attack — one-time protection', 1, 0, NULL),
+(4, 0, 'Compass', 'Shows all exits in current room — helpful for navigation', 1, 0, NULL),
+(5, 0, 'Weapons', 'Player can pick up swords or axes — helpful for combat', 1, 0, NULL);

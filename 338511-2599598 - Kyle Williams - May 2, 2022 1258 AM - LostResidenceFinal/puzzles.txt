@@ -1,1 +1,12 @@
 CREATE TABLE PUZZLE(puzzleID integer not Null Primary Key autoincrement, description text null, ItemToSolve text null, hint text null, roomID int null, solved int null, playerID int not null); FOREIGN KEY (playerID) REFERENCES PLAYER (playerID);
+INSERT INTO PUZZLE (description, ItemToSolve, hint, roomID, solved, playerID) VALUES
+('I have hands but no arms and a face but no eyes. What am I?', 'A clock', 'Look at the wall to tell time.', 1, 0, 1),
+('What has to be broken before you can use it?', 'An egg', 'You eat it for breakfast.', 1, 0, 1),
+('I have four legs and a back but no head. What am I?', 'A chair', 'You sit on me.', 1, 0, 1),
+('I come down but never go up. What am I?', 'Rain', 'Check the sky.', 1, 0, 1),
+('What begins with T, ends with T, and has T in it?', 'A teapot', 'Think of something that boils.', 1, 0, 1),
+('What is full of holes but still holds water?', 'A sponge', 'You clean dishes with it.', 1, 0, 1),
+('What has feet but can’t walk?', 'A ruler', 'Used for measuring.', 1, 0, 1),
+('What comes once in a minute, twice in a moment, but never in a thousand years?', 'The letter M', 'It''s a letter.', 1, 0, 1),
+('What goes up but never comes down?', 'Your age', 'Think about birthdays.', 1, 0, 1),
+('What is white, cold, and falls from the sky in winter?', 'Snow', 'Wear a coat when it happens.', 1, 0, 1);
